@@ -22,7 +22,7 @@ namespace Snake
             new Settings();
 
             //Set game speed and start timer
-            gameTimer.Interval = 1000 / Settings.Speed;
+            gameTimer.Interval = 5000 / Settings.Speed;
             gameTimer.Tick += UpdateScreen;
             gameTimer.Start();
 
